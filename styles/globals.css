@@ -127,6 +127,12 @@
   transform: translateZ(0);
 }
 
+.bg-hero {
+  background: no-repeat url("../assets/herobg.png");
+  background-position: center;
+  background-size: cover;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
