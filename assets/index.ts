@@ -20,11 +20,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
+import ieSoft from './ie.jpg'
 import ledix from "./ledix.png";
 
 import carrent from "./carrent.png";
@@ -35,6 +31,7 @@ import githubIcon from "./github.jpg";
 import linkedinIcon from "./linkedin.svg";
 
 export {
+  ieSoft,
   ledix,
   backend,
   creator,
@@ -58,10 +55,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
