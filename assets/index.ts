@@ -30,10 +30,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import githubIcon from "./github.jpg";
+import linkedinIcon from "./linkedin.svg";
+
 export {
   logo,
   backend,
   creator,
+  githubIcon,
+  linkedinIcon,
   mobile,
   web,
   github,

@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
-import { Computers } from '.'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
+import { githubIcon, linkedinIcon } from '@/assets'
 
 const Hero = () => {
   return (
@@ -24,9 +26,35 @@ const Hero = () => {
             amet consectetur adipisicing elit. Vel
           </p>
         </div>
+        <div className="linksRef">
+
+          <a
+            href='https://github.com/Jwilv'
+            target='_blank'
+            className="item github"
+          >
+            <Image src={githubIcon} alt='github' width={50} height={50} />
+            <p>Jwilv</p>
+          </a>
+
+          <a
+            href='https://www.linkedin.com/in/juan-wilvers-450a11233'
+            target='_blank'
+            className="item  linkedin"
+          >
+            <Image
+              src={linkedinIcon}
+              className='linkedin-img'
+              alt='github'
+              width={50}
+              height={50}
+            />
+            <p>Juan Wilvers</p>
+          </a>
+
+        </div>
       </div>
 
-      <Computers />
     </section>
   )
 }

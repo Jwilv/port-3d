@@ -10,6 +10,11 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@react-three/drei": "^9.88.11",
     "@react-three/fiber": "^8.15.9",
     "framer-motion": "^10.16.4",
@@ -18,7 +23,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-tilt": "^1.0.2",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.158.0"
   },
   "devDependencies": {
     "@types/node": "^20",
