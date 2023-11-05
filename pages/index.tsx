@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="icon" href="/logo.svg" />
+        <link rel="icon" href="/logo.jpeg" />
       </Head>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero"

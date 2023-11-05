@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -34,7 +33,6 @@ import githubIcon from "./github.jpg";
 import linkedinIcon from "./linkedin.svg";
 
 export {
-  logo,
   backend,
   creator,
   githubIcon,
