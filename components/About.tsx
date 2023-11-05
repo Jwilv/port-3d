@@ -2,12 +2,12 @@
 import { motion } from 'framer-motion'
 import { services } from "../constants"
 import { fadeIn, textVariant } from '../utils/motion'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 interface ServiceCardProps {
   index: number
   title: string
-  icon: string
+  icon: string | StaticImageData
 }
 
 export const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
