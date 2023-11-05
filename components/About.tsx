@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { services } from "../constants"
 import { fadeIn, textVariant } from '../utils/motion'
 import Image, { StaticImageData } from 'next/image'
+import StarWrapper from './hoc/SectionWrapper'
 
 interface ServiceCardProps {
   index: number
@@ -56,4 +57,13 @@ const About = () => {
   )
 }
 
-export default About
+const Wrapper = () => {
+  return (
+    <StarWrapper idName='about'>
+      <About />
+    </StarWrapper>
+)
+}
+
+
+export default Wrapper 

@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 
 import { staggerContainer } from "../../utils/motion";
+import { ReactNode } from "react";
 
 interface SectionWrapperProps {
-    children: JSX.Element | JSX.Element[];
+    children: JSX.Element | JSX.Element[] | ReactNode;
     idName: string;
 }
 
-const StarWrapper = ({ children, idName} : SectionWrapperProps) =>
-  function HOC() {
+const StarWrapper = ({ children, idName} : SectionWrapperProps) =>{
     return (
       <motion.section
         variants={staggerContainer()}
