@@ -47,7 +47,7 @@ const About = () => {
         Magnam molestias numquam suscipit iste similique illum corporis eveniet culpa. Sit hic corrupti magnam?
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

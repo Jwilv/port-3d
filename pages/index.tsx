@@ -3,7 +3,7 @@ import {
   About, Contact, Experience,
   Feedbacks, Hero, Navbar,
   Tech, Works, Loader,
-  Stars, Ball, Computers,
+  Stars, Ball,
   Earth
 } from '../components'
 
