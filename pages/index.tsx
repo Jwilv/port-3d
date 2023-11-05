@@ -2,9 +2,7 @@ import Head from 'next/head'
 import {
   About, Contact, Experience,
   Feedbacks, Hero, Navbar,
-  Tech, Works, Loader,
-  Stars, Ball,
-  Earth
+  Tech, Works
 } from '../components'
 
 export default function Home() {
@@ -26,7 +24,6 @@ export default function Home() {
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          <Stars />
         </div>
       </div>
     </>

@@ -12,12 +12,9 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     carrent,
     jobit,
     tripguide,
-    threejs,
     ledix,
     ieSoft,
   } from "../assets";
@@ -90,21 +87,9 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
