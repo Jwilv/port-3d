@@ -31,8 +31,10 @@ import game from "./game.jpg";
 import pokemon from "./pokemon.jpg";
 import votes from "./votes.jpg";
 import tickets from "./tickets.jpg";
+import taller from "./taller.jpg";
 
 export {
+  taller,
   votes,
   tickets,
   pokemon,

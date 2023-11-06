@@ -23,6 +23,7 @@ import {
     pokemon,
     tickets,
     votes,
+    taller,
   } from "../assets";
   
   export const navLinks = [
@@ -155,9 +156,97 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Taller de Electronica",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        'Web estaica dedicada a el taller de electronica. Escuela tecnica N5 "2 de abril" Temperley',
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ts",
+          color: "white-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: taller,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Map App",
+      description:
+        "Es una aplicacion web que se basa en un mapa mundial entre usuarios conectados en tiempo real donde pueden colocar puntos de interes.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sockets",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: map,
+      source_code_link: "https://github.com/Jwilv/map-app",
+    },
+    {
+      name: "Chat",
+      description:
+        "Chat en tiempo real. Envia y recibe mensajes de forma segura con otros usuarios.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sockets",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: chat,
+      source_code_link: "https://github.com/Jwilv/chat-app",
+    },
+    {
+      name: "Editor de codigo JS",
+      description:
+        "Editor de codigo en la nube. Compila y edita tu codigo JavaScript. Un entorno de desarrollo de JavaScript libre.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ts",
+          color: "white-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: code,
+      source_code_link: "https://github.com/Jwilv/editApp",
+    },
+    {
+      name: "Calendario",
+      description:
+        "Calendario de eventos. Crea y administra eventos junto a otros usuarios.",
       tags: [
         {
           name: "react",
@@ -168,6 +257,10 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "restapi",
+          color: "white-text-gradient",
+        },
+        {
           name: "tailwind",
           color: "pink-text-gradient",
         },
@@ -176,9 +269,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Diario",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Diario personal.Adjunta fotos, Crea, modifica y borra entradas de tu diario. lleva tus historias a donde quieras.",
       tags: [
         {
           name: "react",
@@ -197,80 +290,17 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Game",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Juego de naves con react",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: map,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: chat,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: code,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "javascript",
+          color: "orange-text-gradient",
         },
         {
           name: "css",
@@ -278,19 +308,19 @@ import {
         },
       ],
       image: game,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Jwilv/juego2022",
     },
     {
-      name: "Trip Guide",
+      name: "Pokedex",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Pokedex construida con nextjs utilizando SSG, ISR y ISG",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "SSG",
           color: "green-text-gradient",
         },
         {
@@ -299,20 +329,20 @@ import {
         },
       ],
       image: pokemon,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Jwilv/pokestatic",
     },
     {
-      name: "Trip Guide",
+      name: "Tickets",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Una aplicacion de tickets orientada a negocios. Administracion de tickets en tiempo real.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "sockets",
+          color: "orange-text-gradient",
         },
         {
           name: "css",
@@ -320,28 +350,7 @@ import {
         },
       ],
       image: tickets,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: votes,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Jwilv/votes-app",
     },
   ];
   
