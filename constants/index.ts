@@ -12,11 +12,17 @@ import {
     nodejs,
     mongodb,
     git,
-    carrent,
-    jobit,
-    tripguide,
     ledix,
     ieSoft,
+    calendar,
+    journal,
+    map,
+    chat,
+    code,
+    game,
+    pokemon,
+    tickets,
+    votes,
   } from "../assets";
   
   export const navLinks = [
@@ -166,7 +172,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: calendar,
       source_code_link: "https://github.com/",
     },
     {
@@ -187,7 +193,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: journal,
       source_code_link: "https://github.com/",
     },
     {
@@ -208,7 +214,133 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: map,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: chat,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: code,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: game,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pokemon,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tickets,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: votes,
       source_code_link: "https://github.com/",
     },
   ];

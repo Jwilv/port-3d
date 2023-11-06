@@ -30,7 +30,10 @@ const ProjectCard = ({
   source_code_link,
 }: ProjectCardProps) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div 
+    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    style={{cursor: 'pointer'}}
+    >
       <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
         <div className='relative w-full h-[230px]'>
           <Image
@@ -94,7 +97,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

@@ -19,14 +19,29 @@ import typescript from "./tech/typescript.png";
 import ieSoft from './ie.jpg'
 import ledix from "./ledix.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import githubIcon from "./github.jpg";
 import linkedinIcon from "./linkedin.svg";
 
+import calendar from "./calendar.jpg";
+import journal from "./journal.jpg";
+import map from "./map.jpg";
+import chat from "./chat.jpg";
+import code from "./code.jpg";
+import game from "./game.jpg";
+import pokemon from "./pokemon.jpg";
+import votes from "./votes.jpg";
+import tickets from "./tickets.jpg";
+
 export {
+  votes,
+  tickets,
+  pokemon,
+  game,
+  code,
+  chat,
+  map,
+  journal,
+  calendar,
   ieSoft,
   ledix,
   backend,
@@ -47,7 +62,4 @@ export {
   redux,
   tailwind,
   typescript,
-  carrent,
-  jobit,
-  tripguide,
 };
