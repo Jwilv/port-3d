@@ -47,10 +47,6 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     }
@@ -289,69 +285,69 @@ import {
       image: journal,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Game",
-      description:
-        "Juego de naves con react",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: game,
-      source_code_link: "https://github.com/Jwilv/juego2022",
-    },
-    {
-      name: "Pokedex",
-      description:
-        "Pokedex construida con nextjs utilizando SSG, ISR y ISG",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "SSG",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: pokemon,
-      source_code_link: "https://github.com/Jwilv/pokestatic",
-    },
-    {
-      name: "Tickets",
-      description:
-        "Una aplicacion de tickets orientada a negocios. Administracion de tickets en tiempo real.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "sockets",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tickets,
-      source_code_link: "https://github.com/Jwilv/votes-app",
-    },
+    // {
+    //   name: "Game",
+    //   description:
+    //     "Juego de naves con react",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "javascript",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: game,
+    //   source_code_link: "https://github.com/Jwilv/juego2022",
+    // },
+    // {
+    //   name: "Pokedex",
+    //   description:
+    //     "Pokedex construida con nextjs utilizando SSG, ISR y ISG",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "SSG",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: pokemon,
+    //   source_code_link: "https://github.com/Jwilv/pokestatic",
+    // },
+    // {
+    //   name: "Tickets",
+    //   description:
+    //     "Una aplicacion de tickets orientada a negocios. Administracion de tickets en tiempo real.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "sockets",
+    //       color: "orange-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tickets,
+    //   source_code_link: "https://github.com/Jwilv/votes-app",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

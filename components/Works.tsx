@@ -1,11 +1,10 @@
-import React from "react";
-import Tilt from "react-tilt";
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
 import StarWrapper from "./hoc/SectionWrapper";
-import { projects } from "../constants";
+import { moreProjects, principalProyects, projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import Image, { StaticImageData } from "next/image";
 
@@ -21,7 +20,7 @@ interface ProjectCardProps {
   source_code_link: string;
 }
 
-const ProjectCard = ({
+export const ProjectCard = ({
   index,
   name,
   description,
@@ -30,9 +29,9 @@ const ProjectCard = ({
   source_code_link,
 }: ProjectCardProps) => {
   return (
-    <motion.div 
-    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-    style={{cursor: 'pointer'}}
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      style={{ cursor: 'pointer' }}
     >
       <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
         <div className='relative w-full h-[230px]'>

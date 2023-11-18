@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import {
   About, Contact, Experience,
-  Feedbacks, Hero, Navbar,
+  Hero, Navbar,
   Tech, Works
 } from '../components'
 
@@ -19,9 +19,7 @@ export default function Home() {
         </div>
         <About />
         <Experience />
-        <Tech />
         <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
         </div>
