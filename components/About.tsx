@@ -36,15 +36,18 @@ const About = () => {
         >Introducción</p>
         <h2
           className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]"
-        >Que soy</h2>
+        >Acerca de mí</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iure rem asperiores repellendus quo rerum facere.
-        Magnam molestias numquam suscipit iste similique illum corporis eveniet culpa. Sit hic corrupti magnam?
+        Soy Juan, un joven de 19 años apasionado por la tecnología. Como Desarrollador Front-End,
+        utilizo React y Next para crear interfaces atractivas.
+        <br />
+        En el Back-End, me especializo en Node y Express, construyendo servidores robustos.
+        Siempre busco aprender y aportar soluciones innovadoras en cada proyecto.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
@@ -62,7 +65,7 @@ const Wrapper = () => {
     <StarWrapper idName='about'>
       <About />
     </StarWrapper>
-)
+  )
 }
 
 

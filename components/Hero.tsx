@@ -22,8 +22,7 @@ const Hero = () => {
              sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]
              text-white-100 mt-2'
           >
-            Lorem ipsum dolor sit <br className='sm:block hidden' />
-            amet consectetur adipisicing elit. Vel
+            Desarrollador Front-End<br className='sm:block hidden' />
           </p>
         </div>
         <div className="linksRef">
