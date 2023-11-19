@@ -77,7 +77,7 @@ const Experience = () => {
 
 const Wrapper = () => {
   return (
-    <StarWrapper idName='work'>
+    <StarWrapper idName='experience'>
       <Experience />
     </StarWrapper>
   )

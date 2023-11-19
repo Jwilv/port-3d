@@ -1,0 +1,12 @@
+.menu{
+    position: absolute;
+    top: 68px;
+    right: 0;
+    width: 150px;
+    height: 25vh;
+    align-items: center;
+}
+
+.items {
+    padding-left: 10px;
+}

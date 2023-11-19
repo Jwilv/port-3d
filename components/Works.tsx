@@ -100,7 +100,7 @@ const Works = () => {
 
 const Wrapper = () => {
   return (
-    <StarWrapper idName='work'>
+    <StarWrapper idName='projects'>
       <Works />
     </StarWrapper>
   );

@@ -1,10 +1,12 @@
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import { navLinks } from '../constants'
 import { menu, close } from '../assets'
 import { styles } from '../styles'
 import Image from 'next/image'
+
+import stylesNav from './styles.module.css'
 
 
 const Navbar = () => {
@@ -57,7 +59,7 @@ const Navbar = () => {
             }}
           />
 
-          <div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl z-10`}>
+          <div className={`${!toggle ? "hidden" : "flex"} ${stylesNav.menu} bg-primary`}>
           <ul className='list-none flex justify-end items-start flex-col gap-4'>
           {navLinks.map((link) => (
             <li
@@ -65,7 +67,7 @@ const Navbar = () => {
               className={`${active === link.title
                 ? "text-white"
                 : "text-secondary"
-                } font-poppins font-medium cursor-pointer text-[16px]`}
+                } font-poppins font-medium cursor-pointer text-[16px] ${stylesNav.items}`}
               onClick={() => {
                 setToggle(!toggle)
                 setActive(link.title);
