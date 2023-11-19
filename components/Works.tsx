@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import StarWrapper from "./hoc/SectionWrapper";
-import { moreProjects, principalProyects, projects } from "../constants";
+import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import Image, { StaticImageData } from "next/image";
 
