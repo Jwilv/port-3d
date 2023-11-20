@@ -132,7 +132,7 @@ html,body {
 }
 
 .bg-hero {
-  background: no-repeat url("../assets/herobg.png");
+  /* background: no-repeat url("../assets/herobg.png"); */
   background-position: center;
   background-size: cover;
 }
