@@ -1,46 +1,27 @@
-import backend from "./backend.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import Scroll from './scroll.png'
+import BlackBg from './black-bg.jpeg'
+import dslite from './proyects/dsLite.png'
+import mapApp from './proyects/mapApp.png'
+import chatApp from './proyects/chatApp.png'
+import spendWise from './proyects/spendWise.png'
+import calendar from './proyects/calendar.png'
+import imgsIa from './proyects/imgsIa.png'
+import ie from './experience/ie.jpg'
+import ledix from './experience/ledix.png'
+import zest from './experience/zest.jpeg'
 
-import ieSoft from './ie.jpg'
-import ledix from "./ledix.png";
 
-import githubIcon from "./github.webp";
-import linkedinIcon from "./linkedin.svg";
-
-import calendar from "./calendar.jpg";
-import journal from "./journal.jpg";
-import map from "./map.jpg";
-import chat from "./chat.jpg";
-import code from "./code.jpg";
-import game from "./game.jpg";
-import pokemon from "./pokemon.jpg";
-import votes from "./votes.jpg";
-import tickets from "./tickets.jpg";
-import taller from "./taller.jpg";
 
 export {
-  taller,
-  votes,
-  tickets,
-  pokemon,
-  game,
-  code,
-  chat,
-  map,
-  journal,
-  calendar,
-  ieSoft,
-  ledix,
-  backend,
-  githubIcon,
-  linkedinIcon,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-};
+    Scroll,
+    BlackBg,
+    dslite,
+    mapApp,
+    chatApp,
+    spendWise,
+    calendar,
+    imgsIa,
+    ie,
+    ledix,
+    zest
+}

@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import {
-  About, Contact, Experience,
-  Hero, Navbar,
-  Works
-} from '../components'
+import { About, Hero, Presentation, Proyects } from '@/components/screens'
+import { Experience } from '@/components/screens/Experience'
+import { Contact } from '@/components/screens/Contact'
+import 'react-vertical-timeline-component/style.min.css';
 
 export default function Home() {
   return (
@@ -16,19 +15,14 @@ export default function Home() {
           content="Portfolio of Juan Wilvers"
         />
       </Head>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero"
-        >
-          <Navbar />
-          <Hero />
-        </div>
+      <main className="h-screen w-screen overflow-x-hidden">
+      <Presentation />
         <About />
+        <Hero />
+        <Proyects />
         <Experience />
-        <Works />
-        <div className="relative z-0">
-          <Contact />
-        </div>
-      </div>
+        <Contact />
+      </main>
     </>
   )
 }
