@@ -1,7 +1,7 @@
 
 export const handleDescargarCV = () => {
   // Aquí especificamos la ruta del archivo PDF
-  const pathCv = '/assets/WilversCv.pdf';
+  const pathCv = '/WilversCv.pdf';
   // Creamos un enlace temporal
   const downloadLink = document.createElement('a');
   downloadLink.href = pathCv;
