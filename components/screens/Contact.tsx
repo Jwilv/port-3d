@@ -77,8 +77,9 @@ export const Contact = () => {
               name="name"
               value={formValue.name}
               onChange={handleChange}
-              placeholder=" ¿Cuál es tu nombre?"
-              className="py-4 px-6 placeholder:text-secondary rounded-lg outline-none border-none font-medium bg-[#F2F2F2]"
+              placeholder="¿Cuál es tu nombre?"
+              
+              className="py-4 px-6 placeholder:text-secondary rounded-lg outline-none border-none font-medium bg-[#e1e1e1]"
             />
           </label>
 
@@ -91,7 +92,7 @@ export const Contact = () => {
               value={formValue.email}
               onChange={handleChange}
               placeholder="¿Cuál es tu Email?"
-              className="py-4 px-6 placeholder:text-secondary rounded-lg outline-none border-none font-medium bg-[#F2F2F2]"
+              className="py-4 px-6 placeholder:text-secondary rounded-lg outline-none border-none font-medium bg-[#e1e1e1]"
             />
           </label>
 
@@ -104,7 +105,7 @@ export const Contact = () => {
               value={formValue.message}
               onChange={handleChange}
               placeholder="Escribe tu mensaje"
-              className="py-4 px-6 placeholder:text-secondary rounded-lg outline-none border-none font-medium bg-[#F2F2F2]"
+              className="py-4 px-6 placeholder:text-secondary rounded-lg outline-none border-none font-medium bg-[#e1e1e1]"
             />
           </label>
 
