@@ -1,6 +1,12 @@
 import { Scroll } from '@/assets'
 import { Github, Linkedin } from 'lucide-react'
 import Image from 'next/image'
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@/components/ui/tooltip"
 
 export const Presentation = () => {
     return (
@@ -13,22 +19,41 @@ export const Presentation = () => {
                 className='absolute 2xl:top-[30%] 2xl:right-[40%] lg:top-[30%] lg:left-[60%] top-[15%] left-0 right-0 m-auto'
             />
 
-            <a 
-            href='https://github.com/Jwilv'
-            target='_blank'
-            className='border-[#E8E7EA] rounded-full border-2 w-12 h-12 flex justify-center items-center absolute left-[30%] top-[70%]
-            md:left-[40%] cursor-pointer'
-            >
-                <Github className='w-7 h-7' />
-            </a>
+            <TooltipProvider>
 
-            <a 
-            href='https://www.linkedin.com/in/juan-wilvers-450a11233/'
-            target='_blank'
-            className='border-[#E8E7EA] rounded-full border-2 w-12 h-12 flex justify-center items-center absolute right-[30%] top-[70%]
-             md:right-[40%]'>
-                <Linkedin className='w-7 h-7' />
-            </a>
+                <Tooltip>
+                    <TooltipTrigger
+                        className='border-[#E8E7EA] rounded-full border-2 w-12 h-12 flex justify-center items-center absolute left-[30%] top-[70%] md:left-[40%] cursor-pointer'
+                    >
+                        <a
+                            href='https://github.com/Jwilv'
+                            target='_blank'
+                        >
+                            <Github className='w-7 h-7' />
+                        </a>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                        GitHub
+                    </TooltipContent>
+                </Tooltip>
+
+                <Tooltip>
+                    <TooltipTrigger
+                        className='border-[#E8E7EA] rounded-full border-2 w-12 h-12 flex justify-center items-center absolute right-[30%] top-[70%] md:right-[40%]'
+
+                    >
+                        <a
+                            href='https://www.linkedin.com/in/juan-wilvers-450a11233/'
+                            target='_blank'                            >
+                            <Linkedin className='w-7 h-7' />
+                        </a>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                        Linkedin
+                    </TooltipContent>
+                </Tooltip>
+
+            </TooltipProvider>
 
         </div>
     )

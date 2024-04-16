@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Button } from "../ui/button"
 import { BlackBg } from "@/assets"
+import { handleDescargarCV } from "@/lib/download-cv"
 
 
 export const About = () => {
@@ -11,7 +12,12 @@ export const About = () => {
                     <span className="text-xl">Sobre mi</span>
                     <p className="font-semibold md:text-3xl text-2xl md:w-[580px] mt-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit vitae nihil vero sit labore itaque soluta error totam, temporibus illum et incidunt asperiores laborum unde eligendi odio sapiente nemo. Optio.</p>
                     <p className="font-semibold md:text-3xl text-2xl md:w-[580px] mt-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit vitae nihil vero sit labore itaque soluta error totam, temporibus illum et incidunt asperiores laborum unde eligendi odio sapiente nemo. Optio.</p>
-                    <Button className="mt-10 w-[200px] h-[50px]" >Descargar Cv</Button>
+                    <Button
+                        className="mt-10 w-[200px] h-[50px]"
+                        onClick={handleDescargarCV}
+                    >
+                    Descargar Cv
+                    </Button>
                 </div>
             </div>
 
