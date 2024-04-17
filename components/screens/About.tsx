@@ -14,7 +14,7 @@ export const About = () => {
                     Soy un desarrollador Front-End con tres años de experiencia especializado en la creación y ejecución de proyectos tecnológicos innovadores. Mi pasión radica en desarrollar soluciones eficientes y vanguardistas, respaldadas por mi expertise en tecnologías como React, React Native, Nest, TypeScript y Node.js.
                     </p>
                     <p className="font-semibold md:text-3xl text-2xl md:w-[580px] mt-10">
-                    Mi destreza se refleja en mi capacidad para abordar desafíos complejos y convertir los requisitos comerciales en código funcional de alta calidad. Disfruto enfrentando problemas difíciles y colaborando estrechamente con equipos multidisciplinarios para lograr resultados sobresalientes.
+                    Disfruto enfrentando problemas difíciles y colaborando con equipos multidisciplinarios para lograr resultados sobresalientes.
                     </p>
                     <Button
                         className="mt-10 w-[200px] h-[50px]"
