@@ -17,7 +17,7 @@ export const CarouselProyects = () => {
             orientation='horizontal'
             plugins={[
                 Autoplay({
-                    delay: 5000,
+                    delay: 15000,
                 }),
             ]}
             opts={{
