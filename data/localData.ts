@@ -1,4 +1,4 @@
-import { calendar, chatApp, dslite, imgsIa, mapApp, spendWise } from "@/assets";
+import { calendar, chatApp, dslite, imgsIa, mapApp, spendWise, velocista } from "@/assets";
 import { Proyetc } from "@/type";
 
 export const Proyects: Proyetc[] = [
@@ -31,6 +31,18 @@ export const Proyects: Proyetc[] = [
             {
                 label: 'Linkedin',
                 url: 'https://www.linkedin.com/posts/juan-wilvers-450a11233_reactnative-typescript-javascript-activity-7175599838414184448-4AA6?utm_source=share&utm_medium=member_desktop'
+            }
+        ]
+    },
+    {
+        title: 'Robot Velocista',
+        image: velocista,
+        desc: 'Un Robot Velocista que compitió en la Liga Nacional Argentina de robotica, alcanzando el prestigioso puesto entre los tres mejores en el campeonato zonal.',
+        subDesc: 'Obtuvimos un primer puesto en la carrera de el gran premio de Bahía Blanca, compentencia internacional. Este logro fue el resultado del arduo trabajo y la colaboración en equipo durante el desarrollo del robot. Estamos emocionados de haber llevado nuestro robot al escenario mundial y de haber demostrado el talento y la innovación de nuestro equipo en una competencia tan exigente.',
+        links: [
+            {
+                label: 'Github',
+                url: 'https://github.com/DERTECH-CORP/Velocista_COYOTE'
             }
         ]
     },

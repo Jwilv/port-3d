@@ -9,6 +9,7 @@ import imgsIa from './proyects/imgsIa.png'
 import ie from './experience/ie.jpg'
 import ledix from './experience/ledix.png'
 import zest from './experience/zest.jpeg'
+import velocista from './proyects/velocista.png'
 
 
 
@@ -23,5 +24,6 @@ export {
     imgsIa,
     ie,
     ledix,
-    zest
+    zest,
+    velocista
 }
